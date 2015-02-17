@@ -1,19 +1,40 @@
-// Author:
-// Date:
-// Version:
+Author:   Juan Pueblo
+Date:     today
+Version:  1.0
 
 /*
-Homework DD
-this assignment  ...
+  Homework 03
+  aveage for 3 vars
+	
 */
+
 
 #include <iostream>
 
 int main ()
 {
-  // TODO your code here!!!!
+  double b=4.5;
+  double c=5.4;
+  int x=10;
 
-  std::cout<<"Hello world!!" <<std::endl;
+  std::cout<<"vars declared and initialized "<<std::endl;
+  std::cout<<"\tb: "<<b<<std::endl;
+  std::cout<<"\tc: "<<c<<std::endl;
+  std::cout<<"\tx: "<<x<<std::endl;
+
+  b = x;
+
+  std::cout<<"after expression: b = x; "<<std::endl;
+  std::cout<<"\tb: "<<b<<std::endl;
+  std::cout<<"\tc: "<<c<<std::endl;
+  std::cout<<"\tx: "<<x<<std::endl;
+
+  x = c;
+
+  std::cout<<"after expression: x = c; "<<std::endl;
+  std::cout<<"\tb: "<<b<<std::endl;
+  std::cout<<"\tc: "<<c<<std::endl;
+  std::cout<<"\tx: "<<x<<std::endl;
 
   return 0;
 }
